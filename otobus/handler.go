@@ -6,7 +6,9 @@ import (
 )
 
 func GetOtobusler(w http.ResponseWriter, r *http.Request) {
-
+	// aktif port : 8080
+	// Get Otobüsler için 5 tane otobüsü bir array'e tanımlayıp aynı şekilde marshallayıp
+	// ekrana otobusler endpointi çalıştığında göstermemiz
 }
 
 func GetOtobus(w http.ResponseWriter, r *http.Request) {
